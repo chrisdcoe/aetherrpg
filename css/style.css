@@ -1,0 +1,11 @@
+/* PAGE STYLES */
+
+.header {
+  /* Image credits: Floating Islands by PeterPrime*/
+  background-image: url("../img/floating_islands.png");
+  color: white;
+}
+
+/*.header h1 {
+  color: white;
+}*/
