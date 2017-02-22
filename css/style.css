@@ -1,11 +1,66 @@
 /* PAGE STYLES */
 
-.header {
+* {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+/* HEADER STYLES */
+
+header {
   /* Image credits: Floating Islands by PeterPrime*/
   background-image: url("../img/floating_islands.png");
   color: white;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
-/*.header h1 {
+header a {
   color: white;
-}*/
+  text-decoration: none;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  /*debug*/
+  /*border: solid 1px red;*/
+}
+
+nav li {
+  /*border: solid 1px blue;*/
+  display: inline-block;
+  padding: 0.5em;
+  /*background-color: tomato;*/
+  width: 75%;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 0;
+  background-color: tomato;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+/* BODY SECTION STYLES */
+
+
+/* FOOTER STYLES */
