@@ -3,41 +3,55 @@
 <head>
   <title>World of Aether</title>
 <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rufina|Sintony" rel="stylesheet">
 <!-- Use the following CSS rules to specify these families:
-font-family: 'Dosis', sans-serif; -->
+font-family: 'Sintony', sans-serif;
+font-family: 'Rufina', serif; -->
 
 
 <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-<header>
-  <h1><a href="#">World of Aether</a></h1>
+<div id="wrapper">
+  <div id="header">
+    <h1><a href="#">World of Aether</a></h1>
 
-  <!-- Main Menu -->
-  <nav id="header-menu">
-    <ul>
-      <li><a href="index.html" class="selected">Home</a></li>
-      <li><a href="world.html">World</a></li>
-      <li><a href="characters.html">Characters</a></li>
-      <li><a href="factions.html">Factions</a></li>
-      <li><a href="locations.html">Locations</a></li>
-    </ul>
-  </nav>
-</header>
+    <!-- Main Menu -->
+    <nav id="header-menu">
+      <ul>
+        <li><a href="index.html" class="selected">Home</a></li>
+        <li><a href="world.html">World</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="factions.html">Factions</a></li>
+        <li><a href="locations.html">Locations</a></li>
+      </ul>
+    </nav>
+  </div> <!-- end header div -->
+  <div id="body">
 
-<div>
-  <p>Front page for World of Aether RPG.</p>
+    <p>Aliquam molestie, sapien eget tristique pulvinar, risus sem lacinia leo, sit amet varius ex lorem eget lacus. Integer egestas ex sem, semper eleifend quam gravida mollis. Integer ut sapien sit amet leo pretium dignissim ut ac lacus. Nullam placerat, quam eu feugiat scelerisque, odio nunc tempor quam, eu condimentum odio mi vel lorem. In quis molestie felis. Sed augue metus, finibus a consequat ac, facilisis in sapien. Aliquam bibendum convallis eros, a porttitor sapien feugiat id. Sed eget maximus nisi. Phasellus quam sapien, scelerisque at sem eget, ullamcorper bibendum urna. Nunc auctor risus dolor, at ultricies ante molestie sed.</p>
 
-</div>
+  </div> <!-- end body div -->
 
-<div class="footer">
-  <p>This is the footer. It might have stuff in it later.</p>
-</div>
+  <div id="footer">
+    <p>Copyright &copy;
+      <script>
+      // Use current date
+        var d = new Date()
+        document.write(d.getFullYear());
+      </script>
+      Christopher Coe</p>
+  </div> <!--end footer div -->
+</div> <!--end wrapper-->
 
+<!-- JavaScript -->
+<script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
