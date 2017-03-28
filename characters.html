@@ -1,43 +1,248 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>World of Aether - Character Information</title>
-<!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<!-- Use the following CSS rules to specify these families:
-font-family: 'Dosis', sans-serif; -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>World of Aether - Characters</title>
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Rufina|Sintony" rel="stylesheet">
+<!-- Use the following CSS rules to specify these families:
+font-family: 'Sintony', sans-serif;
+font-family: 'Rufina', serif; -->
 
 <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 </head>
 
 <body>
-<header>
-  <h1><a href="#">World of Aether</a></h1>
+<div id="wrapper">
+  <div class="row" id="header">
+    <div class="col-4">
+      <h1><a href="index.html">World of Aether</a></h1>
+    </div>
+    <div class="col-8">
+      <!-- Main Menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="world.html">World</a></li>
+          <li><a href="characters.html" class="selected">Characters</a></li>
+          <li><a href="factions.html">Factions</a></li>
+          <!-- <li><a href="locations.html">Locations</a></li> -->
+        </ul>
+      </nav>
+    </div> <!-- col-8 -->
+  </div> <!-- #header -->
 
-  <!-- Main Menu -->
-  <nav id="header-menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="world.html">World</a></li>
-      <li><a href="characters.html" class="selected">Characters</a></li>
-      <li><a href="factions.html">Factions</a></li>
-      <li><a href="locations.html">Locations</a></li>
-    </ul>
-  </nav>
-</header>
+  <div id="body">
+    <!-- Introduction -->
+    <div class="row">
+      <div class="col-12" id="column-one">
+        <h2>Create Your Character</h2>
+        <p>Choose from a variety of races and classes to create your adventurer. View a selection of the available races and classes below.</p>
+      </div>
+    </div> <!-- end introduction -->
 
-<div>
-  <p>Character page for World of Aether RPG.</p>
+    <!-- Race and Class: two column format -->
+    <div class="row">
+      <!-- Race Tabs-->
+      <div class="col-6">
+        <h2>Races</h2>
+        <div id="racetabs">
+          <ul>
+            <li><a href="#tabs-hum">Human</a></li>
+            <li><a href="#tabs-liz">Lizardfolk</a></li>
+            <li><a href="#tabs-min">Minotaur</a></li>
+            <li><a href="#tabs-orc">Orc</a></li>
+            <li><a href="#tabs-rat">Ratling</a></li>
+            <li><a href="#tabs-syl">Sylvanian</a></li>
+            <li><a href="#tabs-ten">Tengu</a></li>
+          </ul>
 
-</div>
+          <div id="tabs-hum">
+            <h3>Humans</h3>
+            <img class="img-tabs" src="img/human.jpg">
+            <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
+            <h4>Ability Scores</h4>
+            <p>Two different ability scores of your choice increase by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
+            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+          </div>
 
-<div class="footer">
-  <p>This is the footer. It might have stuff in it later.</p>
-</div>
+          <div id="tabs-liz">
+            <h3>Lizardfolk</h3>
+            <img class="img-tabs" src="img/lizard.jpg">
+            <p>Lizardfolk tend to congregate around wet climates. Islands with an abundance of water crystals will often have a lizardfolk settlement nearby. They are a sturdy folk who exhibit a seemingly emotionally-detached demeanor.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Aquatic</span>: You can hold your breath for 15 minutes at a time. You also have a swimming speed of 30 feet.</p>
+            <p><span class="bold">Bite</span>: Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+            <p><span class="bold">Hungry Jaws</span>: In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+            <p><span class="bold">Cunning Artisan</span>: As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. (Your DM may allow you to create other items.) To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
+            <p><span class="bold">Hunter's Lore</span>: You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+            <p><span class="bold">Natural Armor</span>: You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+          </div>
+
+          <div id="tabs-min">
+            <h3>Minotaurs</h3>
+            <img class="img-tabs" src="img/minotaur.jpg">
+            <p>Minotaurs are right at home on the plains. They have overcome a brutal, savage history and tend to live as farmers and nomads living off the land. Don't underestimate them, however; an angry minotaur is still a fearsome foe.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Horns</span>: You are never unarmed. You are
+            proficient with your horns, which are a melee
+            weapon that deals 1d10 piercing damage. Your
+            horns grant you advantage on all checks made to
+            shove a creature, but not to avoid being shoved
+            yourself.</p>
+            <p><span class="bold">Goring Rush</span>: When you use the Dash action
+            during your turn, you can make a melee attack
+            with your horns as a bonus action.</p>
+            <p><span class="bold">Hammering Horns</span>: When you use the Attack
+            action during your turn to make a melee attack,
+            you can attempt to shove a creature with your
+            horns as a bonus action. You cannot use this
+            shove attempt to knock a creature prone.</p>
+            <p><span class="bold">Labyrinthine Recall</span>: You can perfectly recall
+            any path you have traveled. </p>
+            <p><span class="bold">Herbalism</span>: You gain proficiency with herbalism kits.</p>
+
+          </div>
+
+          <div id="tabs-orc">
+            <h3>Orcs</h3>
+            <img class="img-tabs" src="img/orc.jpg">
+            <p>Orcs are often seen as the outcasts of society. They still remember an ancient feud with the humans, one that was never fully resolved. As a result, there's a prejudice about orcs being bandits, pirates, and thugs. Though many orcs do fit this stereotype, many others have come to live among the other races.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Strength score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Darkvision</span>: You have
+            superior vision in dark and dim conditions. You can
+            see in dim light within 60 feet of you as if it were bright
+            light, and in darkness as if it were dim light. You can't
+            discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Menacing</span>: You gain proficiency in the Intimidation skill.</p>
+            <p><span class="bold">Relentless Endurance</span>: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+            <p><span class="bold">Savage Attacks</span>: When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+          </div>
+
+          <div id="tabs-rat">
+            <h3>Ratlings</h3>
+            <img class="img-tabs" src="img/ratling.jpg">
+            <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Intelligence score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
+            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+          </div>
+
+          <div id="tabs-syl">
+            <h3>Sylvanians</h3>
+            <img class="img-tabs" src="img/sylvanian.jpg">
+            <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Dexterity score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
+            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+          </div>
+
+          <div id="tabs-ten">
+            <h3>Tengu</h3>
+            <img class="img-tabs" src="img/tengu.jpg">
+            <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Charisma score increases by 2, and one other ability score of your choice increases by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
+            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+          </div>
+
+        </div> <!-- End Race Tabs -->
+      </div> <!-- first column -->
+
+
+      <div class="col-6"> <!-- second column -->
+        <!-- Class Tabs-->
+        <h2>Classes</h2>
+        <div id="classtabs">
+          <ul>
+            <li><a href="#tabs-fig">Fighter</a></li>
+            <li><a href="#tabs-rog">Rogue</a></li>
+            <li><a href="#tabs-cle">Cleric</a></li>
+            <li><a href="#tabs-wiz">Wizard</a></li>
+          </ul>
+          <div id="tabs-fig">
+            <div class="row">
+              <div class="col-6">
+                <p>Fighters are tough.</p>
+              </div>
+              <div class="col-6">
+                <img class="img-tabs" src="img/human.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="tabs-rog">
+            <div class="row">
+              <div class="col-6">
+                <p>Rogues are sneaky.</p>
+              </div>
+              <div class="col-6">
+                <img class="img-tabs" src="img/minotaur.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="tabs-cle">
+            <div class="row">
+              <div class="col-6">
+                <p>Clerics have healing magic.</p>
+              </div>
+              <div class="col-6">
+                <img class="img-tabs" src="img/lizard.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="tabs-wiz">
+            <div class="row">
+              <div class="col-6">
+                <p>Wizards cast spells.</p>
+              </div>
+              <div class="col-6">
+                <img class="img-tabs" src="img/orc.jpg">
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Class Tabs-->
+      </div> <!-- End second column -->
+    </div> <!-- End two-column layout -->
+  </div> <!-- #body section -->
+
+  <div id="footer">
+    <p>Copyright &copy;
+      <script>
+      // Use current date
+        var d = new Date()
+        document.write(d.getFullYear());
+      </script>
+      Christopher Coe</p>
+  </div> <!--end footer div -->
+</div> <!-- wrapper -->
+
+<!-- JavaScript -->
+<script src="external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>

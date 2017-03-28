@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>World of Aether - Locations</title>
 <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rufina|Sintony" rel="stylesheet">
 <!-- Use the following CSS rules to specify these families:
-font-family: 'Dosis', sans-serif; -->
-
+font-family: 'Sintony', sans-serif;
+font-family: 'Rufina', serif; -->
 
 <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
-<header>
-  <h1><a href="#">World of Aether</a></h1>
+<div id="wrapper">
+  <div class="row" id="header">
+    <div class="col-4">
+      <h1><a href="index.html">World of Aether</a></h1>
+    </div>
+    <div class="col-8">
+      <!-- Main Menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="world.html">World</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="factions.html">Factions</a></li>
+          <li><a href="locations.html" class="selected">Locations</a></li>
+        </ul>
+      </nav>
+    </div> <!-- col-8 -->
+  </div> <!-- #header -->
 
-  <!-- Main Menu -->
-  <nav id="header-menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="world.html">World</a></li>
-      <li><a href="characters.html">Characters</a></li>
-      <li><a href="factions.html">Factions</a></li>
-      <li><a href="locations.html" class="selected">Locations</a></li>
-    </ul>
-  </nav>
-</header>
+  <div id="body">
+    <div class="row">
+      <div class="col-4 col-m-12" id="column-one">
 
-<div>
-  <p>Locations page for World of Aether RPG.</p>
+      </div>
 
-</div>
+    </div> <!-- row -->
+  </div> <!-- #body -->
 
-<div class="footer">
-  <p>This is the footer. It might have stuff in it later.</p>
-</div>
+<div id="footer">
+  <p>Copyright &copy;
+    <script>
+    // Use current date
+      var d = new Date()
+      document.write(d.getFullYear());
+    </script>
+    Christopher Coe</p>
+</div> <!--end footer div -->
 
+</div> <!-- wrapper -->
 </body>
 </html>

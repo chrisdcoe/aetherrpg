@@ -29,16 +29,22 @@ h2 {
   margin: 0 auto;
 }
 
+h3 {
+  font-family: 'Rufina', serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Rufina', serif;
+  text-transform: uppercase;
+}
+
 p, nav a {
   font-family: 'Sintony', sans-serif;
 }
 
-img {
-  width: 100%;
-  max-width: 100%;
-  border: 3px inset;
-  margin: 0 auto;
-}
+
 
 #wrapper {
   width: 100%;
@@ -53,7 +59,6 @@ img {
 
 #header {
   color: white;
-  /*padding-bottom: 1em;*/
   width: 90%;
   margin: 0 auto;
   background-color: rgba(0,0,0, 0.5);
@@ -91,18 +96,18 @@ nav li {
 nav a {
   display: block;
   padding: 0.5em 0;
-  background-color: rgba(80, 123, 159, 1);
+  background-color: rgba(60, 103, 139, 1);
   text-transform: uppercase;
   font-size: 110%;
   transition: 0.3s;
 }
 
 nav a:hover {
-  background-color: rgba(80, 123, 159, 0.5);
+  background-color: rgba(100, 143, 179, 0.5);
 }
 
 nav a.selected {
-  background-color: rgba(33, 51, 66, 1);
+  background-color: rgba(43, 61, 76, 1);
 }
 
 /* BODY SECTION STYLES */
@@ -112,6 +117,10 @@ nav a.selected {
   padding: 1em;
   padding-bottom: 4em;
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* FOOTER STYLES */
@@ -128,6 +137,21 @@ nav a.selected {
 
 #footer p {
   color: #d0d0d0;
+}
+
+/* IMAGE STYLES */
+img {
+  max-width: 100%;
+}
+
+.img-section {
+  border: 3px inset;
+  margin: 0 auto;
+}
+
+.img-tabs {
+  float: right;
+  padding-left: 1em;
 }
 
 /* COLUMN LAYOUT */
@@ -170,28 +194,26 @@ nav a.selected {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*flex-wrap: wrap;*/
   }
   nav li {
     display: inline-block;
     padding: 0;
-    /*flex: 1 1 auto;*/
   }
   nav a {
-    /*display: inline-block;*/
     background: none;
     padding: 0;
     margin: 0 auto;
     padding: 0.5em;
   }
 
-  nav a:hover {
-    background-color: rgba(80, 123, 159, 0.5);
+  /*body styles*/
+  h2 {
+    display: flex;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
   }
 
-  nav a.selected {
-    background-color: rgba(33, 51, 66, 1);
-  }
 
 }
 
@@ -220,48 +242,6 @@ nav a.selected {
     display: flex;
     align-items: center;
   }
-
-  nav ul {
-
-  }
-
-}
-
-/*
-
-nav a:hover {
-  background-color: rgba(80, 123, 159, 0.5);
-}
-
-nav a.selected {
-  background-color: rgba(33, 51, 66, 1);
-}
-
-nav ul {
-  list-style: none;
-  background-color: rgba(255, 255, 255, 0.75);
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 0 0.5em 0;
-}
-
-nav li {
-  display: block;
-  padding: 0.5em 0.5em 0;
-  width: 100%;
-}
-
-nav a {
-  display: block;
-  padding: 0.5em 0;
-  background-color: rgba(80, 123, 159, 1);
-  text-transform: uppercase;
-  font-size: 110%;
-}
-*/
-
-
 
 
 

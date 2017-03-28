@@ -1,3 +1,5 @@
-// Keep the footer date current
-var d = new Date()
-$("#year").text(d.getFullYear());
+// Tab navigation widget
+$( function() {
+  $( "#racetabs" ).tabs();
+  $( "#classtabs" ).tabs();
+} );
