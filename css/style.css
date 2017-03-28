@@ -15,6 +15,15 @@ body {
   background-attachment: fixed;
 }
 
+#wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* TEXT STYLES */
+
 h1 {
   font-size: 300%;
   font-family: 'Rufina', serif;
@@ -44,17 +53,10 @@ p, nav a {
   font-family: 'Sintony', sans-serif;
 }
 
-
-
-#wrapper {
-  width: 100%;
-  min-height: 100%;
-  position: relative;
-  margin: 0 auto;
+.button {
+  font-family: 'Rufina', serif;
+  text-transform: uppercase;
 }
-
-
-
 /* HEADER STYLES */
 
 #header {
@@ -151,8 +153,29 @@ img {
 
 .img-tabs {
   float: right;
-  padding-left: 1em;
+  padding: 0 0 .5em .5em;
+  border-radius: 50%;
 }
+
+/* BUTTONS */
+.button {
+  display: block;
+  padding: 1em;
+  border: solid 1px #2b3d4c;
+  border-radius: 12px;
+  background-color: #3c678b;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #ffffff;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #648fb3;
+}
+
 
 /* COLUMN LAYOUT */
 
@@ -214,7 +237,10 @@ img {
     justify-content: center;
   }
 
-
+  /*image styles*/
+  .img-tabs {
+    width: 50%;
+  }
 }
 
 

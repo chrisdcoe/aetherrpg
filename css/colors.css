@@ -1,0 +1,21 @@
+/* This file exists to store the colors used in the project's CSS. */
+
+html {
+
+/* Nav buttons, medium blue */
+color: #3c678b;
+color: rgb(60, 103, 139);
+
+/* Nav buttons, active, dark blue */
+color: #2b3d4c;
+color: rgb(43, 61, 76);
+
+/* Nav buttons, hover, light blue */
+color: #648fb3;
+color: rgb(100, 143, 179);
+
+/* Section bar green */
+color: #909f6a;
+color: rgb(144, 159, 106);
+
+}
