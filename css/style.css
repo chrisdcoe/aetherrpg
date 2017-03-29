@@ -184,6 +184,35 @@ img {
   background-color: #648fb3;
 }
 
+/* TABLE LAYOUT */
+table {
+  border-spacing: 0;
+}
+
+tr:nth-child(even){
+  background-color: #dee6ed;
+}
+
+td, th {
+  font-size: 90%;
+  padding: 5px;
+}
+
+td:nth-child(even) {
+  text-align: right;
+}
+
+th {
+  text-align: left;
+}
+
+.t-category {
+  font-style: italic;
+}
+
+.t-item {
+  padding-left: 1em;
+}
 
 /* COLUMN LAYOUT */
 
