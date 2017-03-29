@@ -27,10 +27,9 @@ font-family: 'Rufina', serif; -->
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="world.html">World</a></li>
+          <li><a href="setting.html">Setting</a></li>
           <li><a href="characters.html" class="selected">Characters</a></li>
           <li><a href="factions.html">Factions</a></li>
-          <!-- <li><a href="locations.html">Locations</a></li> -->
         </ul>
       </nav>
     </div> <!-- col-8 -->
@@ -39,7 +38,7 @@ font-family: 'Rufina', serif; -->
   <div id="body">
     <!-- Introduction -->
     <div class="row">
-      <div class="col-12" id="column-one">
+      <div class="col-12">
         <h2>Create Your Character</h2>
         <p>Choose from a variety of races and classes to create your adventurer. View a selection of the available races and classes below.</p>
       </div>
@@ -50,7 +49,7 @@ font-family: 'Rufina', serif; -->
       <!-- Race Tabs-->
       <div class="col-6">
         <h2>Races</h2>
-        <div id="racetabs">
+        <div id="tabs">
           <ul>
             <li><a href="#tabs-hum">Human</a></li>
             <li><a href="#tabs-liz">Lizardfolk</a></li>
@@ -61,9 +60,9 @@ font-family: 'Rufina', serif; -->
             <li><a href="#tabs-ten">Tengu</a></li>
           </ul>
 
-          <div id="tabs-hum">
+          <div id="tabs-hum" class="row">
             <h3>Humans</h3>
-            <img class="img-tabs" src="img/human.jpg">
+            <img class="img-tabs" src="img/human.jpg" alt="Human">
             <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
             <h4>Ability Scores</h4>
             <p>Two different ability scores of your choice increase by 1.</p>
@@ -72,9 +71,9 @@ font-family: 'Rufina', serif; -->
             <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
           </div>
 
-          <div id="tabs-liz">
+          <div id="tabs-liz" class="row">
             <h3>Lizardfolk</h3>
-            <img class="img-tabs" src="img/lizard.jpg">
+            <img class="img-tabs" src="img/lizard.jpg" alt="Lizardfolk">
             <p>Lizardfolk tend to congregate around wet climates. Islands with an abundance of water crystals will often have a lizardfolk settlement nearby. They are a sturdy folk who exhibit a seemingly emotionally-detached demeanor.</p>
             <h4>Ability Scores</h4>
             <p>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -87,9 +86,9 @@ font-family: 'Rufina', serif; -->
             <p><span class="bold">Natural Armor</span>: You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
           </div>
 
-          <div id="tabs-min">
+          <div id="tabs-min" class="row">
             <h3>Minotaurs</h3>
-            <img class="img-tabs" src="img/minotaur.jpg">
+            <img class="img-tabs" src="img/minotaur.jpg" alt="Minotaur">
             <p>Minotaurs are right at home on the plains. They have overcome a brutal, savage history and tend to live as farmers and nomads living off the land. Don't underestimate them, however; an angry minotaur is still a fearsome foe.</p>
             <h4>Ability Scores</h4>
             <p>Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -114,9 +113,9 @@ font-family: 'Rufina', serif; -->
 
           </div>
 
-          <div id="tabs-orc">
+          <div id="tabs-orc" class="row">
             <h3>Orcs</h3>
-            <img class="img-tabs" src="img/orc.jpg">
+            <img class="img-tabs" src="img/orc.jpg" alt="Orc">
             <p>Orcs are often seen as the outcasts of society. They still remember an ancient feud with the humans, one that was never fully resolved. As a result, there's a prejudice about orcs being bandits, pirates, and thugs. Though many orcs do fit this stereotype, many others have come to live among the other races.</p>
             <h4>Ability Scores</h4>
             <p>Your Strength score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -131,9 +130,9 @@ font-family: 'Rufina', serif; -->
             <p><span class="bold">Savage Attacks</span>: When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
           </div>
 
-          <div id="tabs-rat">
+          <div id="tabs-rat" class="row">
             <h3>Ratlings</h3>
-            <img class="img-tabs" src="img/ratling.jpg">
+            <img class="img-tabs" src="img/ratling.jpg" alt="Ratling">
             <p>The ratlings are naturally inquisitive and inventive. These small folk have produced some of the finest scholars in the realm. So intense is their passion for learning that their capital itself strongly resembles a university.</p>
             <h4>Ability Scores</h4>
             <p>Your Intelligence score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -142,9 +141,9 @@ font-family: 'Rufina', serif; -->
             <p><span class="bold">Squeak</span>: You're a rodent.</p>
           </div>
 
-          <div id="tabs-syl">
+          <div id="tabs-syl" class="row">
             <h3>Sylvanians</h3>
-            <img class="img-tabs" src="img/sylvanian.jpg">
+            <img class="img-tabs" src="img/sylvanian.jpg" alt="Sylvanian">
             <p>The woodlands of Aether are home not only to various forms of wildlife, but also a forest-dwelling people who call themselves Sylvanians. They resemble bipedal wolves or foxes, slightly taller than the average human.</p>
             <h4>Ability Scores</h4>
             <p>Your Dexterity score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -153,9 +152,9 @@ font-family: 'Rufina', serif; -->
             <p><span class="bold">Fleet of Foot</span>: You move good.</p>
           </div>
 
-          <div id="tabs-ten">
+          <div id="tabs-ten" class="row">
             <h3>Tengu</h3>
-            <img class="img-tabs" src="img/tengu.jpg">
+            <img class="img-tabs" src="img/tengu.jpg" alt="Tengu">
             <p>The Tengu are a race of flightless bird-people who take after ravens and crows. They possess an uncanny gift for socializing and have ingratiated themselves into all parts of society around the core lands.</p>
             <h4>Ability Scores</h4>
             <p>Your Charisma score increases by 2, and one other ability score of your choice increases by 1.</p>
@@ -171,7 +170,7 @@ font-family: 'Rufina', serif; -->
       <div class="col-6"> <!-- second column -->
         <!-- Class Tabs-->
         <h2>Classes</h2>
-        <div id="classtabs">
+        <div id="tabs2">
           <ul>
             <li><a href="#tabs-fig">Fighter</a></li>
             <li><a href="#tabs-rog">Rogue</a></li>
@@ -179,25 +178,25 @@ font-family: 'Rufina', serif; -->
             <li><a href="#tabs-wiz">Wizard</a></li>
           </ul>
 
-          <div id="tabs-fig">
+          <div id="tabs-fig" class="row">
             <h3>Fighter</h3>
             <img class="img-tabs" src="img/human.jpg">
             <p>Fighters are tough.</p>
           </div>
 
-          <div id="tabs-rog">
+          <div id="tabs-rog" class="row">
             <h3>Rogue</h3>
             <img class="img-tabs" src="img/human.jpg">
             <p>Rogues are tough.</p>
           </div>
 
-          <div id="tabs-cle">
+          <div id="tabs-cle" class="row">
             <h3>Cleric</h3>
             <img class="img-tabs" src="img/human.jpg">
             <p>Clerics are tough.</p>
           </div>
 
-          <div id="tabs-wiz">
+          <div id="tabs-wiz" class="row">
             <h3>Wizard</h3>
             <img class="img-tabs" src="img/human.jpg">
             <p>Wizards are tough.</p>

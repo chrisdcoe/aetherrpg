@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>World of Aether - World</title>
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Rufina|Sintony" rel="stylesheet">
+<!-- Use the following CSS rules to specify these families:
+font-family: 'Sintony', sans-serif;
+font-family: 'Rufina', serif; -->
+
+<!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div id="wrapper">
+  <div class="row" id="header">
+    <div class="col-4">
+      <h1><a href="index.html">World of Aether</a></h1>
+    </div>
+    <div class="col-8">
+      <!-- Main Menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="setting.html" class="selected">Setting</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="factions.html">Factions</a></li>
+        </ul>
+      </nav>
+    </div> <!-- col-8 -->
+  </div> <!-- #header -->
+
+  <div id="body">
+    <!-- Introduction -->
+    <div class="row">
+      <div class="col-12">
+        <h2>Setting</h2>
+        <p>Learn all about the world of Aether! There are several core differences between Aether and traditional fantasy worlds. Here's a few key things you should know before getting started.</p>
+      </div>
+    </div> <!-- end introduction -->
+
+<!--
+
+THE WORLD
+Islands in sky
+Crystals, elementally charged
+
+THE CORE LANDS
+The Crystal Spire
+Capital: New Concord
+
+
+RELIGION
+Blurbs about the eight Primes.
+list talking about each one?
+this could be done in an accordion with a nav inside?
+
+TECHNOLOGY
+Airships
+Firearms
+
+-->
+
+
+    <div class="row">
+      <div class="col-12">
+        <div id="accordion">
+          <!-- The World Today -->
+          <h3>The World Today</h3>
+          <div class="row">
+            <div class="col-12">
+              <p>jiji</p>
+            </div>
+          </div>
+
+      <!-- The Core Lands -->
+          <h3>The Core Lands</h3>
+          <div class="row">
+            <div class="col-12">
+              <p>jiji</p>
+            </div>
+          </div>
+
+      <!-- Current Technology -->
+          <h3>Current Technology</h3>
+          <div class="row">
+            <div class="col-12">
+              <p>jiji</p>
+            </div>
+          </div>
+
+      <!-- Religion in Aether -->
+          <h3>Religion in Aether</h3>
+          <div class="row">
+            <div class="col-12">
+              <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-ili">Ilios</a></li>
+                  <li><a href="#tabs-sol">Solais</a></li>
+                  <li><a href="#tabs-lun">Lunais</a></li>
+                  <li><a href="#tabs-ryd">Rydion</a></li>
+                  <li><a href="#tabs-dir">Diria</a></li>
+                  <li><a href="#tabs-aur">Aurena</a></li>
+                  <li><a href="#tabs-tyr">Tyrus</a></li>
+                  <li><a href="#tabs-dym">Dymdall</a></li>
+                </ul>
+                <div id="tabs-ili" class="row">
+                  <img class="img-tabs" src="img/primes/ilios.jpg">
+                  <h3>Ilios</h3>
+
+                  <p>Fighters are tough.</p>
+                </div>
+
+                <div id="tabs-sol" class="row">
+                  <h3>Solais</h3>
+                  <img class="img-tabs" src="img/primes/solais.jpg">
+                  <p>Rogues are tough.</p>
+                </div>
+
+                <div id="tabs-lun" class="row">
+                  <h3>Lunais</h3>
+                  <img class="img-tabs" src="img/primes/lunais.jpg">
+                  <p>Clerics are tough.</p>
+                </div>
+
+                <div id="tabs-ryd" class="row">
+                  <h3>Rydion</h3>
+                  <img class="img-tabs" src="img/primes/rydion.jpg">
+                  <p>Wizards are tough.</p>
+                </div>
+
+                <div id="tabs-dir" class="row">
+                  <h3>Diria</h3>
+                  <img class="img-tabs" src="img/primes/diria.jpg">
+                  <p>Fighters are tough.</p>
+                </div>
+
+                <div id="tabs-aur" class="row">
+                  <h3>Aurena</h3>
+                  <img class="img-tabs" src="img/primes/aurena.jpg">
+                  <p>Rogues are tough.</p>
+                </div>
+
+                <div id="tabs-tyr" class="row">
+                  <h3>Tyrus</h3>
+                  <img class="img-tabs" src="img/primes/tyrus.jpg">
+                  <p>Clerics are tough.</p>
+                </div>
+
+                <div id="tabs-dym" class="row">
+                  <h3>Dymdall</h3>
+                  <img class="img-tabs" src="img/primes/dymdall.jpg">
+                  <p>Wizards are tough.</p>
+                </div>
+              </div> <!-- End Tabs -->
+            </div>
+          </div>
+
+    </div> <!-- End Accordion -->
+
+  </div> <!-- #body -->
+
+  <div id="footer">
+    <p>Copyright &copy;
+      <script>
+      // Use current date
+        var d = new Date()
+        document.write(d.getFullYear());
+      </script>
+      Christopher Coe</p>
+  </div> <!--end footer div -->
+</div> <!-- wrapper -->
+
+<!-- JavaScript -->
+<script src="external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

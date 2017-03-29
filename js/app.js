@@ -1,7 +1,12 @@
 // Tab navigation widget
 $( function() {
-  $( "#racetabs" ).tabs();
-  $( "#classtabs" ).tabs();
+  $( "#tabs" ).tabs();
+  $( "#tabs2" ).tabs();
+} );
+
+$( function() {
+  $( "#vtabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+  $( "#vtabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
 } );
 
 $( function() {
