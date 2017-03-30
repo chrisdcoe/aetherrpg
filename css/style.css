@@ -156,6 +156,17 @@ img {
   margin: 0 0 .5em .5em;
   border-radius: 50%;
   border: outset 2px;
+  width: 100%;
+}
+
+.img-class {
+  margin: 0 0 .5em 1em;
+  float: right;
+}
+
+.img-class-left {
+  margin: 0 1em .5em 0;
+  float: left;
 }
 
 .faction-symbol {
@@ -275,8 +286,8 @@ th {
   }
 
   /*image styles*/
-  .img-tabs {
-    width: 50%;
+  .img-tabs, .img-class, .img-class-left {
+    max-width: 50%;
   }
 }
 
