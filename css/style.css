@@ -187,7 +187,6 @@ img {
   margin: auto;
   width: 70%;
   text-align: center;
-
 }
 
 .button:hover {
@@ -309,6 +308,19 @@ th {
   	padding: 1em 1.4em;
   }
 
+  .col-m-6 {
+    position: relative;
+    min-height: 33em;
+  }
+
+  .btn-2col {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 2em;
+  }
+
   /*image styles*/
   .img-tabs, .img-class, .img-class-left {
     max-width: 50%;
@@ -341,6 +353,16 @@ th {
     align-items: center;
   }
 
+  .button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 2em;
+  }
 
-
+  .front-page-col {
+    position: relative;
+    min-height: 35.8em;
+  }
 }
