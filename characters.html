@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>World of Aether - Characters</title>
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Rufina|Sintony" rel="stylesheet">
+<!-- Use the following CSS rules to specify these families:
+font-family: 'Sintony', sans-serif;
+font-family: 'Rufina', serif; -->
+
+<!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div id="wrapper">
+  <div class="row" id="header">
+    <div class="col-4">
+      <h1><a href="index.html">World of Aether</a></h1>
+    </div>
+    <div class="col-8">
+      <!-- Main Menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="setting.html">Setting</a></li>
+          <li><a href="characters.html" class="selected">Characters</a></li>
+          <li><a href="factions.html">Factions</a></li>
+        </ul>
+      </nav>
+    </div> <!-- col-8 -->
+  </div> <!-- #header -->
+
+  <div id="body">
+    <!-- Introduction -->
+    <div class="row">
+      <div class="col-12">
+        <h2>Create Your Character</h2>
+        <p>Choose from a variety of races and classes to create your adventurer. View a selection of the available races and classes below.</p>
+      </div>
+    </div> <!-- end introduction -->
+
+    <!-- Race and Class: two column format -->
+    <div class="row">
+      <!-- Race Tabs-->
+      <div class="col-6">
+        <h2>Races</h2>
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-hum">Human</a></li>
+            <li><a href="#tabs-liz">Lizan</a></li>
+            <li><a href="#tabs-kob">Kobold</a></li>
+            <li><a href="#tabs-min">Minotaur</a></li>
+            <li><a href="#tabs-gno">Gnoll</a></li>
+            <li><a href="#tabs-rat">Ratling</a></li>
+            <li><a href="#tabs-ten">Tengu</a></li>
+          </ul>
+
+          <div id="tabs-hum" class="row">
+            <h3>Humans</h3>
+            <img class="img-tabs" src="img/races/human.jpg" alt="Human">
+            <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
+            <h4>Ability Scores</h4>
+            <p>Two different ability scores of your choice each increase by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and one extra language of your choice.</p>
+            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
+            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+          </div>
+
+          <div id="tabs-liz" class="row">
+            <h3>Lizan</h3>
+            <img class="img-tabs" src="img/races/lizan.jpg" alt="Lizan">
+            <p>Lizan tend to congregate around wet climates. Islands with an abundance of water crystals will often have a lizan settlement nearby. They are a sturdy folk who exhibit a seemingly emotionally-detached demeanor.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Wisdom and Constitution scores each increase by 2, and one other ability score of your choice increases by 2. Your Charisma score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Draconic.</p>
+            <p><span class="bold">Aquatic</span>: You can hold your breath for 15 minutes at a time. You also have a swimming speed of 30 feet.</p>
+            <p><span class="bold">Bite</span>: Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+            <p><span class="bold">Hungry Jaws</span>: In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+            <p><span class="bold">Cunning Artisan</span>: As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. (Your DM may allow you to create other items.) To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
+            <p><span class="bold">Hunter's Lore</span>: You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+            <p><span class="bold">Natural Armor</span>: You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+          </div>
+
+          <div id="tabs-kob" class="row">
+            <h3>Kobold</h3>
+            <img class="img-tabs" src="img/races/kobold.jpg" alt="Kobold">
+            <p>The jungles of Aether are home not only to various forms of wildlife, but also a curious, nomadic people who call themselves maakiin who resemble bipedal big cats. Maakiin caravans travel from place to place, rarely staying put in one place for too long. Some maakiin deviate from this pattern and settle down in the cities amongst other races. They're renowned storytellers, shrewd traders, and expert hunters.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Dexterity and Intelligence scores each increase by 2, and one other ability score of your choice increases by 2. Your Strength score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Draconic.</p>
+            <p><span class="bold">Darkvision</span>: You have
+            superior vision in dark and dim conditions. You can
+            see in dim light within 60 feet of you as if it were bright
+            light, and in darkness as if it were dim light. You can't
+            discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Feline Agility</span>: Your reflexes and agility allow you to
+            move with a burst of speed. When you move on your
+            turn in combat, you can double your speed until the end
+            of the turn. Once you use this trait, you can't use it again
+            until you move O feet on one of your turns.</p>
+            <p><span class="bold">Cat's Claws</span>: Because of your claws, you have a climbing
+            speed of 20 feet. In addition, your claws are natural
+            weapons, which you can use to make unarmed strikes.
+            If you hit with them, you deal slashing damage equal to
+            ld4 + your Strength modifier, instead of the bludgeoning
+            damage normal for an unarmed strike.</p>
+            <p><span class="bold">Cat's Talent</span>: You have proficiency in the Perception and Stealth skills.</p>
+          </div>
+
+          <div id="tabs-min" class="row">
+            <h3>Minotaurs</h3>
+            <img class="img-tabs" src="img/races/minotaur.jpg" alt="Minotaur">
+            <p>Minotaurs are right at home on the plains. They have overcome a brutal, savage history and tend to live as farmers and nomads living off the land. Don't underestimate them, however; an angry minotaur is still a fearsome foe.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Strength and Constitution scores each increase by 2, and one other ability score of your choice increases by 2. Your Dexterity score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Tauric.</p>
+            <p><span class="bold">Horns</span>: You are never unarmed. You are
+            proficient with your horns, which are a melee
+            weapon that deals 1d10 piercing damage. Your
+            horns grant you advantage on all checks made to
+            shove a creature, but not to avoid being shoved
+            yourself.</p>
+            <p><span class="bold">Goring Rush</span>: When you use the Dash action
+            during your turn, you can make a melee attack
+            with your horns as a bonus action.</p>
+            <p><span class="bold">Hammering Horns</span>: When you use the Attack
+            action during your turn to make a melee attack,
+            you can attempt to shove a creature with your
+            horns as a bonus action. You cannot use this
+            shove attempt to knock a creature prone.</p>
+            <p><span class="bold">Labyrinthine Recall</span>: You can perfectly recall
+            any path you have traveled. </p>
+            <p><span class="bold">Herbalism</span>: You gain proficiency with herbalism kits.</p>
+          </div>
+
+          <div id="tabs-gno" class="row">
+            <h3>Gnolls</h3>
+            <img class="img-tabs" src="img/races/gnoll.jpg" alt="Gnoll">
+            <p>Gnolls are often seen as the outcasts of society. They still remember an ancient feud with the humans, one that was never fully resolved. As a result, there's a prejudice about gnolls being bandits, pirates, and thugs. Though many gnolls do fit this stereotype, many others have come to live among the other races.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Strength and Dexterity scores each increase by 2, and one other ability score of your choice increases by 2. Your Intelligence score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Orc.</p>
+            <p><span class="bold">Darkvision</span>: You have
+            superior vision in dark and dim conditions. You can
+            see in dim light within 60 feet of you as if it were bright
+            light, and in darkness as if it were dim light. You can't
+            discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Menacing</span>: You gain proficiency in the Intimidation skill.</p>
+            <p><span class="bold">Relentless Endurance</span>: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+            <p><span class="bold">Savage Attacks</span>: When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+          </div>
+
+          <div id="tabs-rat" class="row">
+            <h3>Ratlings</h3>
+            <img class="img-tabs" src="img/races/ratling.jpg" alt="Ratling">
+            <p>The ratlings are naturally inquisitive and inventive. These small folk have produced some of the finest scholars in the realm. So intense is their passion for learning that their capital itself strongly resembles a university.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Intelligence and Charisma scores each increase by 2, and one other ability score of your choice increases by 2. Your Wisdom score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Ratatat.</p>
+            <p><span class="bold">Small</span>: Your size is Small. Your base walking speed is 25 feet.</p>
+            <p><span class="bold">Darkvision</span>: You have
+            superior vision in dark and dim conditions. You can
+            see in dim light within 60 feet of you as if it were bright
+            light, and in darkness as if it were dim light. You can't
+            discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Cunning</span>: You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+            <p><span class="bold">Artificer's Lore</span>: Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>
+            <p><span class="bold">Industrious</span>: You have proficiency with one artisan's tool of your choice. When crafting using this tool, you can work twice as fast: you make crafting progress in 10-gp increments instead of 5-gp increments until you reach the market value of that item.</p>
+          </div>
+
+          <div id="tabs-ten" class="row">
+            <h3>Tengu</h3>
+            <img class="img-tabs" src="img/races/tengu.jpg" alt="Tengu">
+            <p>The Tengu are a race of flightless bird-people who take after ravens and crows. They possess an uncanny gift for socializing and have ingratiated themselves into all parts of society around the core lands. Cultural traditions run strongly with the tengu, though they're often mixed with new bits of culture from other races. One such tradition is their education in the ancient art of tengu swordplay.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Charisma and Wisdom scores each increase by 2, and one other ability score of your choice increases by 2. Your Constitution score decreases by 2.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Tengo.</p>
+            <p><span class="bold">Expert Forgery</span>: You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
+            <p><span class="bold">Social</span>: You are proficient in your choice of two of the following skills: Deception, Insight, Intimidation, Performance, or Persuasion.</p>
+            <p><span class="bold">Mimicry</span>: You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
+            <p><span class="bold">Tengu Weapon Training</span>: You have proficiency with the shortsword, scimitar, longsword, and rapier.</p>
+          </div>
+
+        </div> <!-- End Race Tabs -->
+      </div> <!-- first column -->
+
+
+      <div class="col-6"> <!-- second column -->
+        <!-- Class Tabs-->
+        <h2>Classes</h2>
+        <div id="tabs2">
+          <ul>
+            <li><a href="#tabs-fig">Fighter</a></li>
+            <li><a href="#tabs-rog">Rogue</a></li>
+            <li><a href="#tabs-cle">Cleric</a></li>
+            <li><a href="#tabs-wiz">Wizard</a></li>
+          </ul>
+
+          <div id="tabs-fig" class="row">
+            <h3>Fighter</h3>
+            <img class="img-class" src="img/class-symbols/fighter.gif">
+            <p>Fighters are tough.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete. Sed vos squalidius, illorum vides quam niteat oratio. Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Neminem videbis ita laudatum, ut artifex callidus comparandarum voluptatum diceretur. Sed quid sentiat, non videtis. Ubi ut eam caperet aut quando?</p>
+          </div>
+
+          <div id="tabs-rog" class="row">
+            <h3>Rogue</h3>
+            <img class="img-class" src="img/class-symbols/rogue.gif">
+            <p>Rogues are sneaky.</p>
+            <p>Addidisti ad extremum etiam indoctum fuisse. Ita ne hoc quidem modo paria peccata sunt. Tum mihi Piso: Quid ergo? Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Ita prorsus, inquam; Expressa vero in iis aetatibus, quae iam confirmatae sunt. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.</p>
+          </div>
+
+          <div id="tabs-cle" class="row">
+            <h3>Cleric</h3>
+            <img class="img-class" src="img/class-symbols/cleric.gif">
+            <p>Clerics are wise.</p>
+            <p>Istam voluptatem perpetuam quis potest praestare sapienti? Expressa vero in iis aetatibus, quae iam confirmatae sunt. Suo enim quisque studio maxime ducitur. Naturales divitias dixit parabiles esse, quod parvo esset natura contenta. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. Eam si varietatem diceres, intellegerem, ut etiam non dicente te intellego; Ille enim occurrentia nescio quae comminiscebatur; Ita prorsus, inquam;</p>
+          </div>
+
+          <div id="tabs-wiz" class="row">
+            <h3>Wizard</h3>
+            <img class="img-class" src="img/class-symbols/wizard.gif">
+            <p>Wizards are smart.</p>
+            <p>Apparet statim, quae sint officia, quae actiones. Duo enim genera quae erant, fecit tria. Tu quidem reddes; Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus; Quod non faceret, si in voluptate summum bonum poneret.</p>
+          </div>
+
+        </div> <!-- End Class Tabs-->
+      </div> <!-- End second column -->
+    </div> <!-- End two-column layout -->
+  </div> <!-- #body section -->
+
+  <div id="footer">
+    <p>Copyright &copy;
+      <script>
+      // Use current date
+        var d = new Date()
+        document.write(d.getFullYear());
+      </script>
+      Christopher Coe</p>
+  </div> <!--end footer div -->
+</div> <!-- wrapper -->
+
+<!-- JavaScript -->
+<script src="external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
