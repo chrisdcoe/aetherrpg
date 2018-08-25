@@ -47,45 +47,49 @@ font-family: 'Rufina', serif; -->
     <!-- Race and Class: two column format -->
     <div class="row">
       <!-- Race Tabs-->
-      <div class="col-6">
+      <div class="col-12">
         <h2>Races</h2>
         <div id="tabs">
           <ul>
             <li><a href="#tabs-hum">Human</a></li>
             <li><a href="#tabs-gno">Gnoll</a></li>
-            <li><a href="#tabs-ken">Kenku</a></li>
             <li><a href="#tabs-kob">Kobold</a></li>
             <li><a href="#tabs-liz">Lizardfolk</a></li>
             <li><a href="#tabs-min">Minotaur</a></li>
             <li><a href="#tabs-rat">Ratling</a></li>
+            <li><a href="#tabs-ten">Tengu</a></li>
           </ul>
 
           <div id="tabs-hum" class="row">
-            <h3>Humans</h3>
+            <h3>Human</h3>
             <img class="img-tabs" src="img/races/human.jpg" alt="Human">
             <p>The humans of Aether are a diverse mix of people. Some are fair-skinned and some are dark; some are strong while others are bookish. Compared to other races, humans don't particularly excel in anything, but they are very adaptable.</p>
             <h4>Ability Scores</h4>
             <p>Two different ability scores of your choice each increase by 2.</p>
             <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Medium.</p>
             <p><span class="bold">Languages</span>: You can speak, read, and write Common and one extra language of your choice.</p>
-            <p><span class="bold">Skills</span>: You gain proficiency in one skill of your choice.</p>
-            <p><span class="bold">Feat</span>: You gain one feat of your choice.</p>
+            <p><span class="bold">Skilled</span>: You gain proficiency in two skills and one tool proficiency of your choice.</p>
+            <p><span class="bold">Extra Feat</span>: You gain one feat of your choice.</p>
           </div>
 
-          <div id="tabs-liz" class="row">
-            <h3>Lizardfolk</h3>
-            <img class="img-tabs" src="img/races/lizan.jpg" alt="Lizardfolk">
-            <p>Lizardfolk tend to congregate around wet climates. Islands with an abundance of water crystals will often have a lizan settlement nearby. They are a sturdy folk who exhibit a seemingly emotionally-detached demeanor.</p>
+          <div id="tabs-gno" class="row">
+            <h3>Gnoll</h3>
+            <img class="img-tabs" src="img/races/gnoll.jpg" alt="Gnoll">
+            <p>Gnolls are often seen as the outcasts of society. They still remember an ancient feud with the humans, one that was never fully resolved. As a result, there's a prejudice about gnolls being bandits, pirates, and thugs. Though many gnolls do fit this stereotype, many others have come to live among the other races.</p>
             <h4>Ability Scores</h4>
-            <p>Your Wisdom and Constitution scores each increase by 2, and one other ability score of your choice increases by 2. Your Charisma score decreases by 2.</p>
+            <p>Your Strength score increases by 2. Your Constitution score and one other ability score of your choice each increase by 1.</p>
             <h4>Racial Traits</h4>
-            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Draconic.</p>
-            <p><span class="bold">Aquatic</span>: You can hold your breath for 15 minutes at a time. You also have a swimming speed of 30 feet.</p>
-            <p><span class="bold">Bite</span>: Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-            <p><span class="bold">Hungry Jaws</span>: In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
-            <p><span class="bold">Cunning Artisan</span>: As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. (Your DM may allow you to create other items.) To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
-            <p><span class="bold">Hunter's Lore</span>: You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
-            <p><span class="bold">Natural Armor</span>: You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+            <p><span class="bold">Size</span>: Your size is Medium.</p>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Gnollish.</p>
+            <p><span class="bold">Fierce Hunter</span>: You gain proficiency with two of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.</p>
+            <p><span class="bold">Darkvision</span>: You have
+              superior vision in dark and dim conditions. You can
+              see in dim light within 60 feet of you as if it were bright
+              light, and in darkness as if it were dim light. You can't
+              discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Keen Senses</span>: You have advantage on Perception checks that rely on hearing or smell.</p>
+            <p><span class="bold">Rampage</span>: When you reduce a creature to 0 hit points with an attack on your turn, you can take a bonus action to move up to half your speed and make one weapon attack.</p>
           </div>
 
           <div id="tabs-kob" class="row">
@@ -93,102 +97,81 @@ font-family: 'Rufina', serif; -->
             <img class="img-tabs" src="img/races/kobold.jpg" alt="Kobold">
             <p>Kobolds are a diminutive race of reptilians with vaguely dragon-like features. Unsurprisingly, kobolds themselves like to claim they're related to dragons. They come in a wide variety of colors, both chromatic and metallic. Kobolds tend to have a strong bond with their clan since traditionally they have believed in safety in numbers. Kobolds are often restless, constantly coming up with new ideas, plans, and schemes. They're also notoriously cowardly. Not many become adventurers, but those who do are eager to prove their worth to their companions.</p>
             <h4>Ability Scores</h4>
-            <p>Your Dexterity and Intelligence scores each increase by 2, and one other ability score of your choice increases by 2. Your Strength score decreases by 2.</p>
+            <p>Your Dexterity score increases by 2. Your Intelligence score and one other ability score of your choice each increase by 1.</p>
             <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Small.</p>
             <p><span class="bold">Languages</span>: You can speak, read, and write Common and Draconic.</p>
-            <p><span class="bold">Darkvision</span>: You have
-            superior vision in dark and dim conditions. You can
-            see in dim light within 60 feet of you as if it were bright
-            light, and in darkness as if it were dim light. You can't
-            discern color in darkness, only shades of gray.</p>
-            <p><span class="bold">Kobold Advantage</span>: Kobolds have advantage on all attacks, ability checks, and saving throws.</p>
-            <p><span class="bold">Cowardice</span>: Despite their obvious superiority, kobolds run away from conflict all the time.</p>
-            <p><span class="bold">ZZZ</span>: ZZZ.</p>
+            <p><span class="bold">Crafty</span>: You gain proficiency with two of the following skills of your choice: Acrobatics, Investigation, Sleight of Hand, or Stealth.</p>
+            <p><span class="bold">Darkvision</span>: You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p><span class="bold">Draconic Resistance</span>: You have resistance to one damage type of your choice: acid, cold, fire, lightning, or poison.</p>
+            <p><span class="bold">Naturally Stealthy</span>: You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
+          </div>
+
+          <div id="tabs-liz" class="row">
+            <h3>Lizardfolk</h3>
+            <img class="img-tabs" src="img/races/lizan.jpg" alt="Lizardfolk">
+            <p>Lizardfolk tend to congregate around wet climates. Islands with an abundance of water crystals will often have a lizan settlement nearby. They are a sturdy folk who exhibit a seemingly emotionally-detached demeanor.</p>
+            <h4>Ability Scores</h4>
+            <p>Your Constitution score increases by 2. Your Wisdom score and one other ability score of your choice each increase by 1.</p>
+            <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Medium.</p>
+            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Draconic.</p>
+            <p><span class="bold">Hunter's Lore</span>: You gain proficiency with two of the following skills of your choice: Nature, Perception, Stealth, and Survival.</p>
+            <p><span class="bold">Aquatic</span>: You can hold your breath for 15 minutes at a time. You also have a swimming speed of 30 feet.</p>
+            <p><span class="bold">Cunning Artisan</span>: As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. (Your DM may allow you to create other items.) To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
+            <p><span class="bold">Natural Armor</span>: You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
           </div>
 
           <div id="tabs-min" class="row">
-            <h3>Minotaurs</h3>
+            <h3>Minotaur</h3>
             <img class="img-tabs" src="img/races/minotaur.jpg" alt="Minotaur">
             <p>Minotaurs are right at home on the plains. They have overcome a brutal, savage history and tend to live as farmers and nomads living off the land. Don't underestimate them, however; an angry minotaur is still a fearsome foe.</p>
             <h4>Ability Scores</h4>
-            <p>Your Strength and Constitution scores each increase by 2, and one other ability score of your choice increases by 2. Your Dexterity score decreases by 2.</p>
+            <p>Your Wisdom score increases by 2. Your Strength score and one other ability score of your choice each increase by 1.</p>
             <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Medium.</p>
             <p><span class="bold">Languages</span>: You can speak, read, and write Common and Tauric.</p>
-            <p><span class="bold">Horns</span>: You are never unarmed. You are
-            proficient with your horns, which are a melee
-            weapon that deals 1d10 piercing damage. Your
-            horns grant you advantage on all checks made to
-            shove a creature, but not to avoid being shoved
-            yourself.</p>
-            <p><span class="bold">Goring Rush</span>: When you use the Dash action
-            during your turn, you can make a melee attack
-            with your horns as a bonus action.</p>
-            <p><span class="bold">Hammering Horns</span>: When you use the Attack
-            action during your turn to make a melee attack,
-            you can attempt to shove a creature with your
-            horns as a bonus action. You cannot use this
-            shove attempt to knock a creature prone.</p>
-            <p><span class="bold">Labyrinthine Recall</span>: You can perfectly recall
-            any path you have traveled. </p>
-            <p><span class="bold">Herbalism</span>: You gain proficiency with herbalism kits.</p>
-          </div>
-
-          <div id="tabs-gno" class="row">
-            <h3>Gnolls</h3>
-            <img class="img-tabs" src="img/races/gnoll.jpg" alt="Gnoll">
-            <p>Gnolls are often seen as the outcasts of society. They still remember an ancient feud with the humans, one that was never fully resolved. As a result, there's a prejudice about gnolls being bandits, pirates, and thugs. Though many gnolls do fit this stereotype, many others have come to live among the other races.</p>
-            <h4>Ability Scores</h4>
-            <p>Your Strength and Dexterity scores each increase by 2, and one other ability score of your choice increases by 2. Your Intelligence score decreases by 2.</p>
-            <h4>Racial Traits</h4>
-            <p><span class="bold">Languages</span>: You can speak, read, and write Common and Orc.</p>
-            <p><span class="bold">Darkvision</span>: You have
-            superior vision in dark and dim conditions. You can
-            see in dim light within 60 feet of you as if it were bright
-            light, and in darkness as if it were dim light. You can't
-            discern color in darkness, only shades of gray.</p>
-            <p><span class="bold">Menacing</span>: You gain proficiency in the Intimidation skill.</p>
-            <p><span class="bold">Relentless Endurance</span>: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
-            <p><span class="bold">Savage Attacks</span>: When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+            <p><span class="bold">Naturalist</span>: You are proficient in your choice of one of the following skills: Animal Handling, Athletics, Insight, or Nature.</p>
+            <p><span class="bold">Powerful Build</span>: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+            <p><span class="bold">Labyrinthine Recall</span>: You can perfectly recall any path you have traveled. </p>
+            <p><span class="bold">Charger</span>: When you use your action to Dash, you can use a bonus action to make one weapon attack or to shove a creature. If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).</p>
           </div>
 
           <div id="tabs-rat" class="row">
-            <h3>Ratlings</h3>
+            <h3>Ratling</h3>
             <img class="img-tabs" src="img/races/ratling.jpg" alt="Ratling">
             <p>The ratlings are naturally inquisitive and inventive. These small folk have produced some of the finest scholars in the realm. So intense is their passion for learning that their capital itself strongly resembles a university.</p>
             <h4>Ability Scores</h4>
-            <p>Your Intelligence and Charisma scores each increase by 2, and one other ability score of your choice increases by 2. Your Wisdom score decreases by 2.</p>
+            <p>Your Intelligence score increases by 2. Your Charisma score and one other ability score of your choice each increase by 1.</p>
             <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Small.</p>
             <p><span class="bold">Languages</span>: You can speak, read, and write Common and Ratatat.</p>
-            <p><span class="bold">Small</span>: Your size is Small. Your base walking speed is 25 feet.</p>
-            <p><span class="bold">Darkvision</span>: You have
-            superior vision in dark and dim conditions. You can
-            see in dim light within 60 feet of you as if it were bright
-            light, and in darkness as if it were dim light. You can't
-            discern color in darkness, only shades of gray.</p>
-            <p><span class="bold">Cunning</span>: You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
-            <p><span class="bold">Artificer's Lore</span>: Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>
-            <p><span class="bold">Industrious</span>: You have proficiency with one artisan's tool of your choice. When crafting using this tool, you can work twice as fast: you make crafting progress in 10-gp increments instead of 5-gp increments until you reach the market value of that item.</p>
+            <p><span class="bold">Loremaster</span>: You are proficient in your choice of one of the following skills: Arcana, History, Nature, or Religion.</p>
+            <p><span class="bold">Expertise</span>: Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</p>
+            <p><span class="bold">Cantrip</span>: You know one of the following cantrips: Druidcraft, Prestidigitation, or Thaumaturgy.</p>
+            <p><span class="bold">Nimbleness</span>: You can move through the space of any creature that is of a size larger than yours.</p>
           </div>
 
-          <div id="tabs-ken" class="row">
-            <h3>Kenku</h3>
-            <img class="img-tabs" src="img/races/kenku.jpg" alt="Kenku">
-            <p>The Kenku are a race of flightless bird-people who take after ravens and crows. They possess an uncanny gift for socializing and have ingratiated themselves into all parts of society around the core lands. Historical records suggest the Kenku lacked a culture of their own prior to The Calamity, so modern Kenku culture is largely a blend of other races' traditions but with a unique flair. One such tradition is the art of Kenku swordplay, which is said to be based on the graceful, flowing style employed by the long-lost Elves.</p>
+          <div id="tabs-ten" class="row">
+            <h3>Tengu</h3>
+            <img class="img-tabs" src="img/races/Tengu.jpg" alt="Tengu">
+            <p>The Tengu are a race of flightless bird-people. They most commonly resemble parrots or crows, though Tengu of all shapes and sizes can be found. They possess an uncanny gift for socializing and have ingratiated themselves into all parts of society around the core lands. Historical records suggest the Tengu lacked a culture of their own prior to The Calamity, so modern Tengu culture is largely a blend of other races' traditions but with a unique flair.</p>
             <h4>Ability Scores</h4>
-            <p>Your Charisma and Wisdom scores each increase by 2, and one other ability score of your choice increases by 2. Your Constitution score decreases by 2.</p>
+            <p>Your Charisma score increases by 2. Your Dexterity score and one other ability score of your choice each increase by 1.</p>
             <h4>Racial Traits</h4>
+            <p><span class="bold">Size</span>: Your size is Medium.</p>
             <p><span class="bold">Languages</span>: You can speak, read, and write Common and Auran.</p>
-            <p><span class="bold">Expert Forgery</span>: You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
-            <p><span class="bold">Social</span>: You are proficient in your choice of two of the following skills: Deception, Insight, Intimidation, Performance, or Persuasion.</p>
+            <p><span class="bold">Socially Apt</span>: You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, or Persuasion.</p>
+            <p><span class="bold">Glide</span>: You can use your reaction when you fall to slow your rate of descent to 60 feet per round. If you land within one minute, you take no falling damage and land on your feet.</p>
             <p><span class="bold">Mimicry</span>: You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
-            <p><span class="bold">Kenku Weapon Training</span>: You have proficiency with the shortsword, scimitar, longsword, and rapier.</p>
+            <p><span class="bold">Lucky</span>: When you roll a 1 on an attack roll, ability check, or saving throw, you can re-roll the die and must use the new roll.</p>
           </div>
 
         </div> <!-- End Race Tabs -->
       </div> <!-- first column -->
 
 
-      <div class="col-6"> <!-- second column -->
+      <div class="col-12"> <!-- second column -->
         <!-- Class Tabs-->
         <h2>Classes</h2>
         <div id="tabs2">
