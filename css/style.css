@@ -323,7 +323,8 @@ th {
 
   /*image styles*/
   .img-tabs, .img-class, .img-class-left {
-    max-width: 50%;
+    /*max-width: 50%;*/
+    max-width: 250px;
   }
 }
 
